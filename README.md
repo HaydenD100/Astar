@@ -14,7 +14,7 @@ A star (A*) is a path finding algorithm invented by Peter Hart. A star finds the
 
 
 
-
+# Screenshots
 ![screenshot](/docs/assets/Screenshot2.png)
 Solid tiles are shown as grey
 

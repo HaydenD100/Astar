@@ -1,4 +1,4 @@
-# A star
+# A Star
 
 Screenshot of my implementation of the A* algorithm 
 ![screenshot](/docs/assets/Screenshot1.png)

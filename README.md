@@ -6,7 +6,4 @@ A* is a path finding algorithm that finds the shortest path to a destination usi
 The red tiles are the path the A* algorithm took and the blue tiles are potential paths that it calculated.
 
 
-![screenshot](/docs/assets/Screenshot2.png)
-The grey tiles are solid
-
 

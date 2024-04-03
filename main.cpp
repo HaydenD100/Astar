@@ -82,9 +82,9 @@ void CalculateCost(struct GridPoint *point) {
 	point->gCost = std::sqrt((startingX - point->x) * (startingX - point->x) + (startingY - point->y) * (startingY - point->y));
 	point->hCost = std::sqrt((endX - point->x) * (endX - point->x) + (endY - point->y) * (endY - point->y));
 	point->fCost = point->hCost + point->gCost;
-	point->calculated = 1;
-	if (point->solid == 0 && point->pickedPoint == 0)
+	if (point->solid == 0 && point->pickedPoint == 0 && point->calculated == 0)
 	{
+		point->calculated = 1;
 		CalculatedPoints.push_back(point);
 	}
 		
